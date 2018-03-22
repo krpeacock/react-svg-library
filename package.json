@@ -10,8 +10,10 @@
   "author": "Kyle Peacock",
   "license": "ISC",
   "devDependencies": {
+    "handlebars": "^4.0.11",
     "htmltojsx": "^0.3.0",
     "pascalcase": "^0.1.1",
+    "prettier": "^1.11.1",
     "react": "^16.3.0-alpha.2"
   }
 }
