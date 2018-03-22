@@ -4,8 +4,15 @@
   "description": "repo to generate a React icon library of svg's",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "plop": "plop"
   },
   "author": "Kyle Peacock",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "htmltojsx": "^0.3.0",
+    "node-plop": "^0.13.0",
+    "pascalcase": "^0.1.1",
+    "plop": "^2.0.0"
+  }
 }

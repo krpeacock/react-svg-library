@@ -1,0 +1,13 @@
+import React, {Fragment} from 'react';
+{{#icons}}
+export class {{name}} extends React.Component{
+  render(){
+    const {height=32, width=32, fill} = this.props;
+    return (
+    <Fragment>
+      {{{icon}}}
+    </Fragment>
+    )
+  }
+}
+{{/icons}}
