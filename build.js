@@ -43,7 +43,9 @@ async function compile(){
   let fileTemplate = Handlebars.compile(fileStructure);
 
   var result = fileTemplate({icons});
-  fs.writeFile(__dirname + '/Icons.js', result);
+  fs.writeFile(__dirname + '/Icons.js', result, ()=>{
+    console.log('successfully wrote to Icons.js');
+  });
 }
 
 compile();

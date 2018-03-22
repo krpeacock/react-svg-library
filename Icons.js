@@ -1,7 +1,6 @@
 import React, {Fragment} from 'react';
 export class Close extends React.Component{
   render(){
-    const {height=32, width=32, fill} = this.props;
     return (
     <Fragment>
       {/*?xml version="1.0" encoding="utf-8"?*/}
